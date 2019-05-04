@@ -1,0 +1,17 @@
+$nav-height: 18em;
+
+.home{
+  height:100vh;
+  // @include flexCenter;
+  width:auto;
+  position: relative;
+  
+  .maxW_1199{
+    max-width: 1199px;
+    width: 100%;
+  }
+  .maxW_768{
+    max-width: 768px;
+    width: 100%;
+  }
+}
